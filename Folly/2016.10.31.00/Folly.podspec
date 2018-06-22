@@ -21,6 +21,7 @@ Pod::Spec.new do |spec|
                       'folly/json.cpp',
                       'folly/portability/BitsFunctexcept.cpp',
                       'folly/detail/MallocImpl.cpp'
+  spec.public_header_files = 'folly/*.h'
   # workaround for https://github.com/facebook/react-native/issues/14326
   spec.preserve_paths = 'folly/*.h',
                         'folly/detail/*.h',
