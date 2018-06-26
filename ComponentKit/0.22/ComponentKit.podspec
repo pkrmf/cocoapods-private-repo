@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage = 'https://componentkit.org'
   s.social_media_url = 'https://twitter.com/componentkit'
   s.authors = 'adamjernst@fb.com'
-  s.source = { :git => 'https://github.com/facebook/ComponentKit.git', :tag => s.version.to_s }
+  s.source = { :git => 'https://github.com/facebook/ComponentKit.git' }
   s.ios.deployment_target = '8.1'
   s.requires_arc = true
 
@@ -19,3 +19,4 @@ Pod::Spec.new do |s|
   }
   s.dependency 'Yoga', '~> 1.6'
 end
+
